@@ -8,3 +8,4 @@ export * from "./ReviewsTab";
 export * from "./Footer";
 export * from "./Banner";
 export * from "./Categories";
+export * from "./LoginForm";

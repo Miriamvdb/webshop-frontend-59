@@ -1,11 +1,10 @@
 import "./styles.css";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   FiInstagram,
   FiTwitter,
   FiFacebook,
   FiTwitch,
-  FiLinkedin,
   FiYoutube,
 } from "react-icons/fi";
 
@@ -13,7 +12,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-navigation">
-        <h3>Navigation</h3>
+        <h2 className="title-footer">Navigation</h2>
         <Link className="footer-link" to="/">
           Home
         </Link>
@@ -21,13 +20,13 @@ const Footer = () => {
           Shop
         </Link>
         <Link className="footer-link" to="/details/:id">
-          Details
+          About
         </Link>
       </div>
       <div className="footer-account">
-        <h3>My account</h3>
+        <h2 className="title-footer">My account</h2>
         <Link className="footer-link" to="/account">
-          My Account
+          My account
         </Link>
         <Link className="footer-link" to="/offers">
           Discount
@@ -43,7 +42,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="footer-social">
-        <h3>Follow us!</h3>
+        <h2 className="title-footer">Follow us!</h2>
 
         <div className="footer-icon">
           <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
@@ -55,8 +54,6 @@ const Footer = () => {
           <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
             <FiFacebook className="icon" />
           </a>
-          <br />
-          <br />
           <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
             <FiYoutube className="icon" />
           </a>

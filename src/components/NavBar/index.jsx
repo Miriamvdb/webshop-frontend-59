@@ -8,13 +8,13 @@ const NavBar = () => {
       <div className="navbar-links-searchbox">
         <div className="navbar-links">
           <Link className="navbar-link" to="/">
-            Home{" "}
+            Home
           </Link>
           <Link className="navbar-link" to="/shop">
-            Shop{" "}
+            Shop
           </Link>
           <Link className="navbar-link" to="/about">
-            About{" "}
+            About
           </Link>
         </div>
       </div>
@@ -23,8 +23,15 @@ const NavBar = () => {
       </div>
 
       <div className="navbar-icons">
-        <FiUser className="icon" /> <FiShoppingCart className="icon" />{" "}
-        <FiHeart className="icon" />
+        <Link className="navbar-link" to="/user/login">
+          <FiUser className="icon" />
+        </Link>
+        <Link className="navbar-link" to="">
+          <FiShoppingCart className="icon" />
+        </Link>
+        <Link className="navbar-link" to="">
+          <FiHeart className="icon" />
+        </Link>
       </div>
     </div>
   );
