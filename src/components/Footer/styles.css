@@ -1,9 +1,12 @@
 .footer-container {
+  height: fit-content;
+  padding: 30px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  min-height: 200px;
+  justify-content: space-around;
   background-color: black;
+  font-size: 12px;
 }
 
 .footer-navigation {
@@ -16,28 +19,23 @@
   flex-direction: column;
 }
 
-h3 {
-  color: white;
+.title-footer {
+  color: white !important;
 }
 
 .footer-link {
   color: white !important;
+  line-height: 25px;
 }
 
 .footer-icon {
   color: white !important;
-  text-align: center;
+  font-size: 18px;
 }
 
-a:active {
-  color: white;
-}
-a:hover {
-  color: white;
-}
-a:visited {
-  color: white;
-}
+a:active,
+a:hover,
+a:visited,
 a:link {
   color: white;
 }
