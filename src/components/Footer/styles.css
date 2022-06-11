@@ -1,0 +1,43 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 200px;
+  background-color: black;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-account {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  color: white;
+}
+
+.footer-link {
+  color: white !important;
+}
+
+.footer-icon {
+  color: white !important;
+  text-align: center;
+}
+
+a:active {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:link {
+  color: white;
+}

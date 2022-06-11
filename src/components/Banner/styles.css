@@ -1,0 +1,30 @@
+.ContainerBanner {
+  width: 100%;
+  background-color: #000000;
+  min-height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  gap: 100px;
+  text-align: center;
+}
+
+.BannerSlogan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.BannerPicture {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+/* .Picture {
+  width: 250px;
+  height: 250px;
+  background-color: gray;
+  align-items: center;
+} */

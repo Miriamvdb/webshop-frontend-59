@@ -1,0 +1,19 @@
+.path-link {
+  color: black !important;
+  display: flex;
+  margin-left: 30px;
+}
+
+.path {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between !important; */
+}
+
+.lower-details {
+  display: flex;
+  min-height: 200px;
+  background-color: rgb(233, 232, 228);
+  width: 100%;
+}

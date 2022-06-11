@@ -1,0 +1,25 @@
+.productblock-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.productblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 200px;
+}
+
+.productblock-content {
+  margin-left: 2%;
+  flex-wrap: wrap;
+  margin-right: 30%;
+}
+
+.productblock-image {
+  align-items: center;
+  margin-left: 30%;
+}

@@ -1,0 +1,13 @@
+.lower-details-title {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.tab-text {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

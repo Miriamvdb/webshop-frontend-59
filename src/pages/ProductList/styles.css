@@ -1,0 +1,36 @@
+img {
+  width: 200px;
+}
+
+.Container-ExtraThings-ProductList {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  justify-content: center;
+  align-self: auto;
+}
+
+.ExtraThings {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Categories,
+.Ratings,
+.PriceFilter {
+  border: solid 1px rgb(230, 230, 230);
+  width: 140px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.ProductList {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  /* margin: 20px auto; */
+}
